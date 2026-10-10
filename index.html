@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html lang="fr-CA">
+<html lang="en-CA" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Adnane Arharbi — Site personnel officiel</title>
-  <meta name="description" content="Site personnel officiel d’Adnane Arharbi au Canada. Présentation, centres d’intérêt en ingénierie logicielle et cybersécurité, et liens vers ses profils officiels.">
+  <title>Adnane Arharbi — Official Personal Website</title>
+  <meta name="description" content="Official personal website of Adnane Arharbi in Canada. Background, interests in software engineering and cybersecurity, and links to his official profiles.">
   <meta name="author" content="Adnane Arharbi">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0b1120">
   <link rel="canonical" href="https://adnane-arharbi.dev/">
+  <link rel="alternate" hreflang="en" href="https://adnane-arharbi.dev/">
+  <link rel="alternate" hreflang="fr" href="https://adnane-arharbi.dev/fr.html">
+  <link rel="alternate" hreflang="ar" href="https://adnane-arharbi.dev/ar.html">
+  <link rel="alternate" hreflang="x-default" href="https://adnane-arharbi.dev/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b1120'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial,sans-serif' font-size='25' font-weight='700' fill='%237dd3fc'%3EAA%3C/text%3E%3C/svg%3E">
-  <meta property="og:title" content="Adnane Arharbi — Site personnel officiel">
-  <meta property="og:description" content="Présentation d’Adnane Arharbi, centres d’intérêt et liens vers ses profils officiels. Une présence personnelle et indépendante sur le Web.">
+  <meta property="og:title" content="Adnane Arharbi — Official Personal Website">
+  <meta property="og:description" content="Adnane Arharbi’s background, interests, and official profiles. A personal and independent presence on the web.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://adnane-arharbi.dev/">
   <meta property="og:site_name" content="Adnane Arharbi">
-  <meta property="og:locale" content="fr_CA">
+  <meta property="og:locale" content="en_CA">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Adnane Arharbi — Site personnel officiel">
-  <meta name="twitter:description" content="Présentation personnelle et liens vers les profils officiels d’Adnane Arharbi.">
+  <meta name="twitter:title" content="Adnane Arharbi — Official Personal Website">
+  <meta name="twitter:description" content="Personal background and links to Adnane Arharbi’s official profiles.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     "@id": "https://adnane-arharbi.dev/#profile",
     "url": "https://adnane-arharbi.dev/",
-    "name": "Adnane Arharbi — Site personnel officiel",
-    "inLanguage": "fr-CA",
+    "name": "Adnane Arharbi — Official Personal Website",
+    "inLanguage": "en-CA",
     "mainEntity": {
       "@type": "Person",
       "@id": "https://adnane-arharbi.dev/#person",
       "name": "Adnane Arharbi",
       "url": "https://adnane-arharbi.dev/",
-      "description": "Adnane Arharbi a un parcours en ingénierie logicielle depuis 2006, portant sur la conception, le développement et la maintenance de logiciels, ainsi que sur la cybersécurité.",
+      "description": "Adnane Arharbi has a background in software engineering since 2006, spanning software design, development, and maintenance, as well as cybersecurity.",
       "knowsAbout": [
-        "Ingénierie logicielle",
-        "Cybersécurité",
-        "Programmation compétitive",
-        "Intelligence artificielle"
+        "Software engineering",
+        "Cybersecurity",
+        "Competitive programming",
+        "Artificial intelligence"
       ],
       "sameAs": [
         "https://github.com/arhadnane",
@@ -66,7 +70,7 @@
     h1 { margin: 0; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; letter-spacing: -.035em; }
     .tagline { margin: 14px 0 0; color: var(--muted); font-size: 1.04rem; }
     .location { margin: 14px 0 0; font-size: .84rem; color: var(--muted); }
-    .location span { display: inline-block; width: 6px; height: 6px; margin-right: 8px; border-radius: 50%; background: var(--accent); vertical-align: middle; }
+    .location span { display: inline-block; width: 6px; height: 6px; margin-inline-end: 8px; border-radius: 50%; background: var(--accent); vertical-align: middle; }
     header { border-bottom: 1px solid var(--border); padding-bottom: 28px; }
     section { margin-top: 30px; }
     h2 { font-size: 1.12rem; line-height: 1.4; margin: 0 0 12px; font-weight: 650; }
@@ -86,61 +90,78 @@
     .independence p { font-size: .85rem; color: var(--muted); }
     footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; margin-top: 24px; color: var(--muted); font-size: .77rem; }
     footer a { color: var(--muted); overflow-wrap: anywhere; }
+    .topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 26px; }
+    .topbar .identity { margin-bottom: 0; }
+    .language-switcher { display: flex; flex-wrap: wrap; gap: 4px; padding: 3px; border: 1px solid var(--border); border-radius: 9px; }
+    .language-switcher a { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; padding: 5px 9px; color: var(--muted); font-size: .78rem; text-decoration: none; border-radius: 6px; }
+    .language-switcher a:hover { background: var(--card); color: var(--text); }
+    .language-switcher a[aria-current="page"] { background: #7dd3fc18; color: var(--accent); font-weight: 600; }
+    :root[dir="rtl"] body { font-family: Tahoma, "Segoe UI", Arial, sans-serif; }
+    :root[dir="rtl"] .eyebrow { letter-spacing: normal; text-transform: none; font-size: .9rem; }
+    :root[dir="rtl"] .intro { line-height: 1.9; }
+    :root[dir="rtl"] h1 { letter-spacing: normal; }
     @media (max-width: 600px) { body { padding: 20px 12px; } .container { padding: 28px 22px; border-radius: 14px; } .identity { margin-bottom: 22px; } }
     @media (max-width: 400px) { .links-grid { grid-template-columns: 1fr; } .container { padding: 24px 18px; } }
     @media (prefers-reduced-motion: reduce) { .profile-link { transition: none; } }
-    @media print { :root { color-scheme: light; --text: #111; --muted: #444; --accent: #185675; --border: #aaa; } body, .container, .profile-link { background: white; box-shadow: none; } body { padding: 0; } .container { border: 0; padding: 0; } .intro { color: #111; } .skip-link { display: none; } }
+    @media print { .language-switcher { display: none; }  :root { color-scheme: light; --text: #111; --muted: #444; --accent: #185675; --border: #aaa; } body, .container, .profile-link { background: white; box-shadow: none; } body { padding: 0; } .container { border: 0; padding: 0; } .intro { color: #111; } .skip-link { display: none; } }
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <a class="skip-link" href="#contenu">Skip to content</a>
   <main class="container" id="contenu">
     <header>
+      <div class="topbar">
       <div class="identity">
-        <div class="monogram" aria-hidden="true">AA</div>
-        <p class="eyebrow">Site personnel officiel</p>
+        <div class="monogram" dir="ltr" aria-hidden="true">AA</div>
+        <p class="eyebrow">Official personal website</p>
       </div>
-      <h1>Adnane Arharbi</h1>
-      <p class="tagline">Ingénierie logicielle · Cybersécurité</p>
+      <nav class="language-switcher" aria-label="Language">
+        <a href="./index.html" lang="en" hreflang="en" dir="ltr" aria-current="page">English</a>
+        <a href="./fr.html" lang="fr" hreflang="fr" dir="ltr">Français</a>
+        <a href="./ar.html" lang="ar" hreflang="ar" dir="rtl">العربية</a>
+      </nav>
+      </div>
+      <h1><bdi dir="ltr">Adnane Arharbi</bdi></h1>
+      <p class="tagline">Software Engineering · Cybersecurity</p>
       <p class="location"><span aria-hidden="true"></span>Canada</p>
     </header>
 
     <section aria-labelledby="presentation">
-      <h2 id="presentation">À propos</h2>
-      <p class="intro">Je suis Adnane Arharbi. Mon parcours en ingénierie logicielle débute en 2006 et porte sur la conception, le développement et la maintenance de logiciels, ainsi que sur la cybersécurité.</p>
-      <p class="intro">Je m’intéresse à la programmation, à la sécurité informatique et à l’intelligence artificielle.</p>
-      <ul class="interests" aria-label="Centres d’intérêt">
-        <li>Ingénierie logicielle</li>
-        <li>Cybersécurité</li>
-        <li>Programmation compétitive</li>
-        <li>Intelligence artificielle</li>
+      <h2 id="presentation">About</h2>
+      <p class="intro">I am Adnane Arharbi. My background in software engineering began in 2006 and spans software design, development, and maintenance, as well as cybersecurity.</p>
+      <p class="intro">I am interested in programming, information security, and artificial intelligence.</p>
+      <ul class="interests" aria-label="Interests">
+        <li>Software engineering</li>
+        <li>Cybersecurity</li>
+        <li>Competitive programming</li>
+        <li>Artificial intelligence</li>
       </ul>
     </section>
 
     <section aria-labelledby="profils">
-      <h2 id="profils">Mes profils officiels</h2>
-      <p class="section-note">Retrouvez mes comptes et mes publications à partir des liens ci-dessous.</p>
-      <nav aria-label="Profils officiels d’Adnane Arharbi">
+      <h2 id="profils">My official profiles</h2>
+      <p class="section-note">Find my accounts and publications through the links below.</p>
+      <nav aria-label="Adnane Arharbi’s official profiles">
         <ul class="links-grid">
-          <li><a class="profile-link" href="https://www.linkedin.com/in/adnane-a-b272a71bb" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn — ouvre un nouvel onglet"><span><strong>LinkedIn</strong><small>Parcours professionnel</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://github.com/arhadnane" target="_blank" rel="me noopener noreferrer" aria-label="GitHub — ouvre un nouvel onglet"><span><strong>GitHub</strong><small>Code et projets personnels</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://medium.com/@aa.adnane" target="_blank" rel="me noopener noreferrer" aria-label="Medium — ouvre un nouvel onglet"><span><strong>Medium</strong><small>Articles et publications</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://x.com/ar_adnane" target="_blank" rel="me noopener noreferrer" aria-label="X, anciennement Twitter — ouvre un nouvel onglet"><span><strong>X / Twitter</strong><small>Échanges et veille</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://tryhackme.com/p/eth.adnane" target="_blank" rel="me noopener noreferrer" aria-label="TryHackMe — ouvre un nouvel onglet"><span><strong>TryHackMe</strong><small>Pratique de la cybersécurité</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://www.codingame.com/profile/481422d0e087bcce95eecf4bbef2ee834269224" target="_blank" rel="me noopener noreferrer" aria-label="CodinGame — ouvre un nouvel onglet"><span><strong>CodinGame</strong><small>Défis de programmation</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
-          <li><a class="profile-link" href="https://www.facebook.com/adnane.arharbi.503" target="_blank" rel="me noopener noreferrer" aria-label="Facebook — ouvre un nouvel onglet"><span><strong>Facebook</strong><small>Profil personnel</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://www.linkedin.com/in/adnane-a-b272a71bb" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn — opens in a new tab"><span><strong><bdi dir="ltr">LinkedIn</bdi></strong><small>Professional background</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://github.com/arhadnane" target="_blank" rel="me noopener noreferrer" aria-label="GitHub — opens in a new tab"><span><strong><bdi dir="ltr">GitHub</bdi></strong><small>Code and personal projects</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://medium.com/@aa.adnane" target="_blank" rel="me noopener noreferrer" aria-label="Medium — opens in a new tab"><span><strong><bdi dir="ltr">Medium</bdi></strong><small>Articles and publications</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://x.com/ar_adnane" target="_blank" rel="me noopener noreferrer" aria-label="X, formerly Twitter — opens in a new tab"><span><strong><bdi dir="ltr">X / Twitter</bdi></strong><small>Conversations and updates</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://tryhackme.com/p/eth.adnane" target="_blank" rel="me noopener noreferrer" aria-label="TryHackMe — opens in a new tab"><span><strong><bdi dir="ltr">TryHackMe</bdi></strong><small>Cybersecurity practice</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://www.codingame.com/profile/481422d0e087bcce95eecf4bbef2ee834269224" target="_blank" rel="me noopener noreferrer" aria-label="CodinGame — opens in a new tab"><span><strong><bdi dir="ltr">CodinGame</bdi></strong><small>Programming challenges</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
+          <li><a class="profile-link" href="https://www.facebook.com/adnane.arharbi.503" target="_blank" rel="me noopener noreferrer" aria-label="Facebook — opens in a new tab"><span><strong><bdi dir="ltr">Facebook</bdi></strong><small>Personal profile</small></span><span class="arrow" aria-hidden="true">↗</span></a></li>
         </ul>
       </nav>
     </section>
 
     <section class="independence" aria-labelledby="independance">
-      <h2 id="independance">Une présence personnelle et indépendante</h2>
-      <p>Ce site est une initiative personnelle. Les opinions et publications que je partage sur mes plateformes personnelles n’engagent que moi et ne représentent pas d’autres organisations.</p>
+      <h2 id="independance">A personal and independent presence</h2>
+      <p>This website is a personal initiative. The opinions and publications I share on my personal platforms are my own and do not represent other organizations.</p>
     </section>
 
     <footer>
-      <span>© 2026 Adnane Arharbi</span>
-      <a href="https://adnane-arharbi.dev/">adnane-arharbi.dev</a>
+      <span><bdi dir="ltr">© 2026 Adnane Arharbi</bdi></span>
+      <a href="https://adnane-arharbi.dev/" dir="ltr">adnane-arharbi.dev</a>
     </footer>
   </main>
 </body>
